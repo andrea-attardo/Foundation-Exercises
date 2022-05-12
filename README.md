@@ -1,8 +1,8 @@
 # C_exercises_EricRobertsArtandscienceCBook
 
-Exercises from the book "Art and Science of C" by Eric Roberts
+Some exercises from chapter 9 of "Art and Science of C" by Eric Roberts book
 
-Reference books: 
+Referenced books: 
 
 https://cs.stanford.edu/people/eroberts/books/TheArtAndScienceOfC/index.html
 
