@@ -28,7 +28,7 @@ int main() {
 
         sentence = GetLine();
         printf("Is the sentence %s palidrome?\n", sentence);
-        (isPalindrome(extractAlnum(sentence))) ? printf("Yes.\n") : printf("No.\n"); 
+        (isPalindrome(extractAlnum(sentence) ? printf("Yes.\n") : printf("No.\n"); 
 
         printf("-------THE END--------\n\n");
     }
