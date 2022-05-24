@@ -1,6 +1,8 @@
-# C_exercises_EricRobertsArtandscienceCBook
+# C-exercises
 
-Some exercises from chapter 9 of "Art and Science of C" by Eric Roberts book
+
+Some exercises from "Art and Science of C" by Eric Roberts book
+and C Programming Modern Approach by K.N.King
 
 Referenced books: 
 
