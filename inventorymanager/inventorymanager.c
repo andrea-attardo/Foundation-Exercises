@@ -62,11 +62,11 @@ struct store_item* insert_node_to_list(struct store_item* list, char* name, int 
 	new_node->stock = stock;
 	new_node->next = list; //questo punta a dove punta list
 
-	return new_node; //devo ritornare il valore di new_node perché non posso far puntare il nodo della lista del chiamante al nuovo nodo da dentro la funzione perché list é una copia (list = new_node non funziona)
+	return new_node; //devo ritornare il valore di new_node perchÃ© non posso far puntare il nodo della lista del chiamante al nuovo nodo da dentro la funzione perchÃ© list Ã© una copia (list = new_node non funziona)
 }
 
 
-void print_list(struct store_item* list) { //variabile list in se è una copia
+void print_list(struct store_item* list) { //variabile list in se Ã¨ una copia
 	printf("%-12s%-s\n", "NAME", "STOCK");
 	while (list != NULL) {
 		printf("%-12s%-d\n", list->name, list->stock);
@@ -136,12 +136,14 @@ struct store_item* delete_node_from_list(struct store_item* list) {
 
 	//if node to delete is first node
 	if (prev_node == NULL) {
-		list = curr_node->next;//questa modifica non è direttamente sul puntatore ma sulla copia fatta quando passato come parametro. la variabile puntatore list sparisce quando funzione termina (è una copia del valore che contiente il "vero" puntatore(memaddress list1)). quindi il bisogno di fare return list è per assegnarlo fuori la funzione
+		list = curr_node->next;//questa modifica non Ã¨ direttamente sul puntatore ma sulla copia fatta quando passato come parametro. la variabile puntatore list sparisce quando funzione termina (Ã¨ una copia del valore che contiente il "vero" puntatore(memaddress list1)). quindi il bisogno di fare return list Ã¨ per assegnarlo fuori la funzione
 	} else {
 		prev_node->next = curr_node->next;
 	}
 
-	//dealloc founded node
+	//dealloc string name e founded node
+	free(curr_node->name);
+	curr_node->name = NULL;
 	free(curr_node);
 	return list; 
 }
