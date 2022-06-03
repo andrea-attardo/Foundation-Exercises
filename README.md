@@ -1,4 +1,4 @@
-# C/C++-exercises
+# C/C++ Exercises
 
 
 Some exercises from "Art and Science of C" by Eric Roberts book
