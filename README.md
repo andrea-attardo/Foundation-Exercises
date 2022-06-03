@@ -3,7 +3,9 @@
 
 Some exercises from "Art and Science of C" by Eric Roberts book
 and C Programming Modern Approach by K.N.King
+
 C++ books
+
 Gamedev
 
 Referenced books: 
