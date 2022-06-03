@@ -1,2 +1,2 @@
-UPDATED Links to last exercises to code reviewing:
+# UPDATED LINKS TO LAST EXERCISES TO CODE REVIEW:
 
