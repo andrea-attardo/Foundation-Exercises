@@ -1,4 +1,4 @@
-# C/C++/Python Foundation Exercises
+# C, C++, Python Foundation Exercises
 
 
 Some exercises from "Art and Science of C" by Eric Roberts book
