@@ -21,13 +21,13 @@ enum keyPressSurfaces
 };
 
 
-SDL_Window*		gWindow				= NULL;
-SDL_Surface*	gWindowSurface		= NULL;
-SDL_Surface*	gBackgroundSurface	= NULL;
+SDL_Window*		gWindow			= NULL;
+SDL_Surface*		gWindowSurface		= NULL;
+SDL_Surface*		gBackgroundSurface	= NULL;
 SDL_Event		gEvent;
-bool			gQuit				= false;
-SDL_Surface*	gKeyPressSurfaces[ KEY_PRESS_SURFACE_TOTAL ];
-SDL_Surface*	gCurrentSurface		= NULL;
+bool			gQuit			= false;
+SDL_Surface*		gKeyPressSurfaces[ KEY_PRESS_SURFACE_TOTAL ];
+SDL_Surface*		gCurrentSurface		= NULL;
 SDL_Rect		gCenteredRect;
 
 int main(int argc, char* args[]) {
