@@ -1,1 +1,0 @@
-HELLO GAME C++/SDL
